@@ -13,24 +13,29 @@ body {
 	max-width: 512px;
 }
 
-.inner {
-	display: grid;
-	gap: 20px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-}
-
 .header {
 	text-align: center;
 }
 
 .logo {
 	width: 50px;
-	margin: 10px 0 20px 0;
+	margin: 10px 0 50px 0;
+}
+
+.inner {
+	display: grid;
+	gap: 25px;
+	row-gap: 50px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 }
 
 .img {
 	width: 50px;
+}
+
+.description {
+	color: black;
 }
 
 .item {
