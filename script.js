@@ -15,7 +15,7 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали: Гамбургер");
+		tg.MainButton.setText("Перейти в раздел: Кисти");
 		item = "1";
 		tg.MainButton.show();
 	}
@@ -26,7 +26,7 @@ btn2 = document.getElementById("btn2").addEventListener("click", () => {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали: Картофель-фри");
+		tg.MainButton.setText("Перейти в раздел: Пудры");
 		item = "2";
 		tg.MainButton.show();
 	}
@@ -37,7 +37,7 @@ btn3 = document.getElementById("btn3").addEventListener("click", () => {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали: Пиццу");
+		tg.MainButton.setText("Перейти в раздел: Помады");
 		item = "3";
 		tg.MainButton.show();
 	}
@@ -48,7 +48,7 @@ btn4 = document.getElementById("btn4").addEventListener("click", () => {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали: Хот-дог");
+		tg.MainButton.setText("Перейти в раздел: Блески");
 		item = "4";
 		tg.MainButton.show();
 	}
@@ -59,7 +59,7 @@ btn5 = document.getElementById("btn5").addEventListener("click", () => {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали: Кусок торта");
+		tg.MainButton.setText("Перейти в раздел: Тени");
 		item = "5";
 		tg.MainButton.show();
 	}
@@ -70,24 +70,8 @@ btn6 = document.getElementById("btn6").addEventListener("click", () => {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали: Мороженое");
+		tg.MainButton.setText("Перейти в раздел: Мыло");
 		item = "6";
 		tg.MainButton.show();
 	}
 });
-
-
-// Добавляет имя и фамилию
-
-// Telegram.WebApp.onEvent("mainButtonClicked", ()=> {
-// 	tg.sendData(item);
-// });
-
-// let usercard = document.getElementById("usercard");
-
-// let p = document.createElement("p");
-
-// p.innerText = `${tg.initDataUnsafe.user.first_name}
-// ${tg.initDataUnsafe.user.last_name}`;
-
-// usercard.appendChild(p); 
