@@ -10,13 +10,6 @@ let item = "";
 let btn1, btn2, btn3, btn4, btn5, btn6;
 
 
-// при клике на кнопку назад, в шапке интерфейса телеграмма
-Telegram.WebApp.onEvent('backButtonClicked', () => {
-	tg.BackButton.show()
-	window.location.href='index.html'; // переход назад
-	tg.BackButton.hide(); // кнопка назад скрыта
-})
-
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
 	if (tg.MainButton.isVisible) { // нижняя кнопка видна
 		tg.MainButton.hide(); // нижнюю кнопка скрыта
@@ -27,10 +20,10 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		tg.MainButton.show(); // видна нижняя кнопка, с изменённым текстом
 
 		// при клике на нижнюю кнопку
-		Telegram.WebApp.onEvent('mainButtonClicked', () => {
+		tg.MainButton.onClick(() => {
 			window.location.href='brushes.html'; // переход в выбранный раздел
-			tg.BackButton.isVisible // кнопка назад, в шапке интерфейса телеграмма
-		})	
+			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
+		})
 	}
 });
 
