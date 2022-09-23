@@ -21,12 +21,14 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		// при клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
 			window.location.href='brushes.html'; // переход в выбранный раздел
-			tg.BackButton.show().onEvent('backButtonClicked', () => {
-				window.location.href='index.html'; // переход назад
-				tg.BackButton.hide(); // кнопка назад скрыта
-			})
+			tg.BackButton.show() // кнопка назад видна
 		})
 	}
+});
+
+tg.BackButton.onClick(() => {
+	window.location.href='index.html'; // переход назад
+	tg.BackButton.hide(); // кнопка назад скрыта
 });
 
 // при клике на кнопку назад, в шапке интерфейса телеграмма
