@@ -12,6 +12,7 @@ let btn1, btn2, btn3, btn4, btn5, btn6;
 
 // при клике на кнопку назад, в шапке интерфейса телеграмма
 Telegram.WebApp.onEvent('backButtonClicked', () => {
+	tg.BackButton.show()
 	window.location.href='index.html'; // переход назад
 	tg.BackButton.hide(); // кнопка назад скрыта
 })
@@ -28,7 +29,7 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		// при клике на нижнюю кнопку
 		Telegram.WebApp.onEvent('mainButtonClicked', () => {
 			window.location.href='brushes.html'; // переход в выбранный раздел
-			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
+			tg.BackButton.isVisible // кнопка назад, в шапке интерфейса телеграмма
 		})	
 	}
 });
