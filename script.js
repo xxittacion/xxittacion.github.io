@@ -30,7 +30,6 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		tg.MainButton.show(); // видна нижняя кнопка, с изменённым текстом
 		// при клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
-			tg.impactOccurred(medium)
 			window.location.href='brushes.html'; // переход в выбранный раздел
 			tg.BackButton.show() // кнопка назад видна, в шапке интерфейса
 		});
