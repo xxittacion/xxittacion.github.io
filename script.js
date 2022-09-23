@@ -22,7 +22,7 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		// при клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
 			window.location.href='brushes.html'; // переход в выбранный раздел
-			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
+			tg.BackButton.isVisible // кнопка назад, в шапке интерфейса телеграмма
 		})
 	}
 });
