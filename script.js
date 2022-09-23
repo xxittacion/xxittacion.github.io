@@ -11,18 +11,20 @@ let btn1, btn2, btn3, btn4, btn5, btn6;
 
 
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
-	if (tg.MainButton.isVisible) { // если при клике на кнопку, нижняя кнопка видна
+	if (tg.MainButton.isVisible) { // если нижняя кнопка видна
 		tg.MainButton.hide(); // то скрываем нижнюю кнопку
 	}
-	else { // если кликнули на кнопку, а нижняя кнопка скрыта
-		tg.MainButton.setText("Перейти в раздел: Кисти"); // то изменяем текст кнопки
+	else { // если нижняя кнопка скрыта
+		tg.MainButton.setText("Перейти в раздел: Кисти"); // изменяет текст кнопки
 		item = "1";
-		tg.MainButton.show(); // и показываем нижнюю кнопку с изменённым текстом
-		Telegram.WebApp.onEvent('mainButtonClicked', () => {
-			window.location.href='brushes.html';
+		tg.MainButton.show(); // показываеть нижнюю кнопку с изменённым текстом
+
+		tg.MainButton.onEvent('mainButtonClicked', () => {
+			window.location.href='brushes.html'; // переход в выбранный раздел
+
 			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
-			Telegram.WebApp.onEvent('backButtonClicked', () => {
-				window.location.href='index.html';
+			tg.BackButton.onEvent('backButtonClicked', () => { 
+				window.location.href='index.html'; // переход назад
 			})
 		})	
 	}
