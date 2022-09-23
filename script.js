@@ -20,13 +20,11 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		tg.MainButton.show(); // и показываем нижнюю кнопку с изменённым текстом
 		Telegram.WebApp.onEvent('mainButtonClicked', () => {
 			window.location.href='brushes.html';
-		})
-		tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграма
-		Telegram.WebApp.onEvent('backButtonClicked', () => {
-			Telegram.WebApp.onEvent('mainButtonClicked', () => {
-				window.location.href='brushes.html';
+			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
+			Telegram.WebApp.onEvent('backButtonClicked', () => {
+				window.location.href='index.html';
 			})
-		}) // устанавливает обработчик события нажатия кнопки
+		})	
 	}
 });
 
