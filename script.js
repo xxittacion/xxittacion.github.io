@@ -21,18 +21,17 @@ tg.BackButton.onClick(() => {
 });
 
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
+	tg.MainButton.impactOccurred(medium);
 	if (tg.MainButton.isVisible) { // нижняя кнопка видна
-		impactOccurred(medium);
 		tg.MainButton.hide(); // нижняя кнопка скрыта
 	}
 	else { // если нижняя кнопка скрыта
-		impactOccurred(medium);
 		tg.MainButton.setText("Перейти в раздел: Кисти"); // текст изменён
 		item = "1";
 		tg.MainButton.show(); // видна нижняя кнопка, с изменённым текстом
 		// при клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
-			impactOccurred(medium);
+			tg.MainButton.impactOccurred(medium);
 			window.location.href='brushes.html'; // переход в выбранный раздел
 			tg.BackButton.show() // кнопка назад видна, в шапке интерфейса
 		})
