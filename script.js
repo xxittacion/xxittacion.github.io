@@ -11,22 +11,25 @@ let btn1, btn2, btn3, btn4, btn5, btn6;
 
 
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
-	if (tg.MainButton.isVisible) { // если нижняя кнопка видна
-		tg.MainButton.hide(); // то скрываем нижнюю кнопку
+	if (tg.MainButton.isVisible) { // нижняя кнопка видна
+		tg.MainButton.hide(); // нижнюю кнопка скрыта
 	}
 	else { // если нижняя кнопка скрыта
-		tg.MainButton.setText("Перейти в раздел: Кисти"); // изменяет текст кнопки
+		tg.MainButton.setText("Перейти в раздел: Кисти"); // текст изменён
 		item = "1";
-		tg.MainButton.show(); // показываеть нижнюю кнопку с изменённым текстом
+		tg.MainButton.show(); // видна нижняя кнопка, с изменённым текстом
 
-		tg.MainButton.onEvent('mainButtonClicked', () => {
+		// при клике на нижнюю кнопку
+		tg.onEvent('mainButtonClicked', () => {
 			window.location.href='brushes.html'; // переход в выбранный раздел
-
 			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
-			tg.BackButton.onEvent('backButtonClicked', () => { 
-				window.location.href='index.html'; // переход назад
-			})
 		})	
+
+		// при клике на кнопку назад, в шапке интерфейса телеграмма
+		tg.onEvent('backButtonClicked', () => {
+			window.location.href='index.html'; // переход назад
+			tg.BackButton.hide(); // кнопка назад скрыта
+		})
 	}
 });
 
