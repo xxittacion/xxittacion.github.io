@@ -32,7 +32,7 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		tg.MainButton.onClick(() => {
 			window.location.href='components/brushes.html'; // переход в выбранный раздел
 			tg.BackButton.show() // кнопка назад видна, в шапке интерфейса
-		}).impactOccurred(medium)
+		});
 	}
 });
 
