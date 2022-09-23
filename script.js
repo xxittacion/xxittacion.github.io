@@ -18,18 +18,18 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 		tg.MainButton.setText("Перейти в раздел: Кисти"); // текст изменён
 		item = "1";
 		tg.MainButton.show(); // видна нижняя кнопка, с изменённым текстом
-
 		// при клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
 			window.location.href='brushes.html'; // переход в выбранный раздел
 			tg.BackButton.show() // кнопка назад, в шапке интерфейса телеграмма
-			// при клике на кнопку назад, в шапке интерфейса телеграмма
-			tg.BackButton.onEvent('backButtonClicked', () => {
-				window.location.href='index.html'; // переход назад
-				tg.BackButton.hide(); // кнопка назад скрыта
-			})
 		})
 	}
+});
+
+// при клике на кнопку назад, в шапке интерфейса телеграмма
+tg.BackButton.onEvent('backButtonClicked', () => {
+	window.location.href='index.html'; // переход назад
+	tg.BackButton.hide(); // кнопка назад скрыта
 });
 
 btn2 = document.getElementById("btn2").addEventListener("click", () => {
