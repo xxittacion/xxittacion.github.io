@@ -23,7 +23,6 @@ tg.BackButton.onClick(() => {
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
 	if (tg.MainButton.isVisible) { // нижняя кнопка видна
 		tg.MainButton.hide(); // нижняя кнопка скрыта
-		tg.impactOccurred(medium); 
 	}
 	else { // если нижняя кнопка скрыта
 		tg.MainButton.setText("Перейти в раздел: Кисти"); // текст изменён
