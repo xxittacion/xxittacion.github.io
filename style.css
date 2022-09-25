@@ -1,72 +1,93 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-size: 15px;
-	color: var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
-}
-
 .container {
+	width: 360px;
+	background: #F4FBFD;
 	margin: 0 auto;
-	max-width: 512px;
 }
 
 .header {
-	text-align: center;
-}
-
-.logo {
-	width: 48px;
-	margin: 10px 0 40px 0;
-}
-
-.inner {
-	display: grid;
-	gap: 25px;
-	row-gap: 50px;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-}
-
-.description {
-	color: black;
-}
-
-.price {
-	color: black;
-}
-
-
-.item {
-	text-align: center;
-}
-
-.btn {
+	position: absolute;
 	display: inline-block;
-	padding: 10px 20px;
-	border: none;
-	background: rgb(248, 168, 24);
-	border-radius: 10px;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 500;
-
-	transition: background .2s linear;
+	width: 360px;
+	height: 397px;
+	background: url(/pictures/header_bg.svg);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.btn:hover {
-	background: green;
+.main {
+	position: absolute;
+	width: 360px;
+	height: 440px;
+	top: 360px;
+	background: #FFFFFF;
+	border-radius: 30px;
 }
 
-.usercard {
+.cardHeader {
+	position: absolute;
+	width: 310px;
+	height: 252px;
+	margin: 30px 25px;
+}
+
+.cardTitle {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 25px;
 	text-align: center;
+	color: rgba(0, 0, 0, 0.85);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 15;
 }
 
-/*
-var(--tg-theme-bg-color)
-var(--tg-theme-text-color)
-var(--tg-theme-hint-color)
-var(--tg-theme-link-color)
-var(--tg-theme-button-color)
-var(--tg-theme-button-text-color)
-*/
+.cardSubTitle {
+	font-family: 'Hurme Geometric Sans 1';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: center;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 30px;
+}
+
+.cardDescription {
+	width: 308px;
+	height: 60px;
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 30px;
+}
+
+.cardButton {
+	width: 148px;
+	height: 48px;
+	background: #2690DE;
+	border-radius: 30px;
+	padding: 10px;
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.85);
+	margin: 0 80px 5px 80px;
+}
+
+.cardFooter {
+	position: absolute;
+	width: 350px;
+	height: 126px;
+	left: 5px;
+	top: 310px;
+	border-radius: 30px;
+	background: linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
+}
