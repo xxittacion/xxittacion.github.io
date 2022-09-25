@@ -22,7 +22,7 @@ tg.BackButton.onClick(() => {
 
 // При клике на кнопку выбрать
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
-	tg.HapticFeedback.impactOccurred(medium); // тактильный сигнал
+	tg.HapticFeedback.impactOccurred(style="medium"); // тактильный сигнал
 	
 	// Нижняя кнопка видна
 	if (tg.MainButton.isVisible) { 
