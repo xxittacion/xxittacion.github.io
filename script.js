@@ -22,7 +22,7 @@ tg.BackButton.onClick(() => {
 
 // При клике на кнопку выбрать
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
-	
+
 	// Нижняя кнопка видна
 	if (tg.MainButton.isVisible) { 
 		tg.MainButton.hide(); // главная кнопка скрыта
@@ -35,7 +35,7 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 
 		// При клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
-			window.location.href='brushes.html'; // выбранный раздел
+			window.location.href='components/brushes.html'; // выбранный раздел
 			tg.BackButton.show(); // кнопка назад видна
 		});
 	}
@@ -97,8 +97,7 @@ btn6 = document.getElementById("btn6").addEventListener("click", () => {
 });
 
 
-// Добавляет имя и фамилию
-
+// Добавляется имя и фамилия "footer"
 // Telegram.WebApp.onEvent("mainButtonClicked", ()=> {
 // 	tg.sendData(item);
 // });
