@@ -25,13 +25,13 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 	
 	// Нижняя кнопка видна
 	if (tg.MainButton.isVisible) { 
-		tg.MainButton.hide(); // нижняя кнопка скрыта
+		tg.MainButton.hide(); // главная кнопка скрыта
 	}
 	// Нижняя кнопка скрыта
 	else { 
 		tg.MainButton.setText("Перейти в раздел: Кисти"); // текст изменён
 		item = "1";
-		tg.MainButton.show(); // нижняя кнопка видна
+		tg.MainButton.show(); // главная кнопка видна
 
 		// При клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
