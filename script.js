@@ -21,6 +21,7 @@ tg.BackButton.onClick(() => {
 });
 
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
+	tg.impactOccurred(light);
 	if (tg.MainButton.isVisible) { // нижняя кнопка видна
 		tg.MainButton.hide(); // нижняя кнопка скрыта
 	}
