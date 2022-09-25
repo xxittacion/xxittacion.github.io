@@ -1,28 +1,28 @@
-let tg = window.Telegram.WebApp; // получаем объект webapp телеграмма 
+let tg = window.Telegram.WebApp; // объект webapp телеграмма 
 
-tg.expand(); // расширяем на все окно
+tg.expand(); // страница на все окно расширенна
 
-// tg.MainButton.text = "Text"; // изменяем текст кнопки 
-// tg.MainButton.setText("Text1"); // изменяем текст кнопки иначе
-// tg.MainButton.setParams({"color": "#143F6B"}); // так изменяются все параметры
+// tg.MainButton.text = "Text"; // текст кнопки изменён 
+// tg.MainButton.setText("Text1"); // текст кнопки изменён иначе
+// tg.MainButton.setParams({"color": "#143F6B"}); // параметры измененны
 
-tg.MainButton.textColor = "#FFFFFF"; // изменяем цвет текста кнопки
-tg.MainButton.color = "#2cab37"; // изменяем цвет бэкграунда кнопки
+tg.MainButton.textColor = "#FFFFFF"; // цвет текста кнопки изменён
+tg.MainButton.color = "#2cab37"; // цвет бэкграунда кнопки изменён
 
 let item = "";
 
 let btn1, btn2, btn3, btn4, btn5, btn6;
 
 
-// при клике на кнопку назад, в шапке интерфейса
+// При клике на кнопку назад
 tg.BackButton.onClick(() => {
-	window.location.href='index.html'; // переход назад
+	window.location.href='index.html'; // главная страница
 	tg.BackButton.hide(); // кнопка назад скрыта
 });
 
+// При клике на кнопку выбрать
 btn1 = document.getElementById("btn1").addEventListener("click", () => {
-	tg.impactOccurred(style="light");
-
+	
 	// Нижняя кнопка видна
 	if (tg.MainButton.isVisible) { 
 		tg.MainButton.hide(); // нижняя кнопка скрыта
@@ -31,12 +31,12 @@ btn1 = document.getElementById("btn1").addEventListener("click", () => {
 	else { 
 		tg.MainButton.setText("Перейти в раздел: Кисти"); // текст изменён
 		item = "1";
-		tg.MainButton.show(); // видна нижняя кнопка, с изменённым текстом
+		tg.MainButton.show(); // нижняя кнопка видна
 
 		// При клике на нижнюю кнопку
 		tg.MainButton.onClick(() => {
-			window.location.href='brushes.html'; // переход в выбранный раздел
-			tg.BackButton.show(); // кнопка назад видна, в шапке интерфейса
+			window.location.href='brushes.html'; // выбранный раздел
+			tg.BackButton.show(); // кнопка назад видна
 		});
 	}
 });
