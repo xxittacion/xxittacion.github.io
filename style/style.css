@@ -1,0 +1,136 @@
+@import url(/style/reset.css);
+
+
+.container {
+	position: absolute;
+	min-width: 390px;
+	height: 844px;
+	left: 35%;
+	background: linear-gradient(170.53deg, #2E1371 2.71%, #130B2B 97.75%);
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.header_title {
+	position: absolute;
+	width: 144px;
+	height: 30px;
+	left: 123px;
+	top: 47px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.main_form__container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 7px 8px;
+	gap: 6px;
+	position: absolute;
+	width: 343px;
+	height: 36px;
+	left: 20px;
+	top: 107px;
+	border-radius: 10px;
+	background: rgba(118, 118, 128, 0.12);
+}
+
+.main_form__input {
+	width: 100%;
+	padding: 0 26px 0 29px;
+	font-family: 'SF Pro Text';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 22px;
+	letter-spacing: -0.408px;
+	color: rgba(255, 255, 255, 0.6);
+	border: none;
+	background-color: transparent;
+	background: url(/pictures/поиск.svg) no-repeat left center, url(/pictures/микрофон.svg) no-repeat right center;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
+	position: absolute;
+	width: 700px;
+	height: 1156px;
+	left: 19px;
+	top: 163px;
+	margin-top: 20px;
+}
+
+.main_title {
+	width: 105px;
+	height: 26px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.3px;
+	color: #FFFFFF;
+}
+
+.slider_inner {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	width: 100%;
+	height: 130px;
+	max-width: 720px;
+}
+
+.slide {
+	width: 100px;
+	height: 130px;
+	border-radius: 20px;
+}
+
+.slide_1 {
+	background: url(/pictures/slide_1.svg) no-repeat;
+}
+
+.slide_2 {
+	background: url(/pictures/slide_2.svg) no-repeat;
+}
+
+.slide_3 {
+	background: url(/pictures/slide_3.svg) no-repeat;
+}
+
+.slide_4 {
+	background: url(/pictures/slide_4.svg) no-repeat;
+}
+
+.slide_5 {
+	background: url(/pictures/slide_5.svg) no-repeat;
+}
+
+.slide_6 {
+	background: url(/pictures/slide_6.svg) no-repeat;
+}
+
+.slide_7 {
+	background: url(/pictures/slide_7.svg) no-repeat;
+}
+
+.slide_8 {
+	background: url(/pictures/slide_8.svg) no-repeat;
+}
+
+.slide_9 {
+	background: url(/pictures/slide_9.svg) no-repeat;
+}
