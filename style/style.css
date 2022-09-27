@@ -1,0 +1,123 @@
+@import url(/style/reset.css);
+
+
+/* ! */
+.home {
+	position: absolute;
+	max-width: 479px;
+	width: 100%;
+	height: 800px;
+	border-radius: 30px;
+	box-shadow: 0px 40px 100px rgba(19, 43, 103, 0.3);
+}
+
+.home_bg {
+	position: fixed;
+	max-width: 479px;
+	width: 100%;
+}
+
+.home_card__bg {
+	position: absolute;
+	max-width: 479px;
+	width: 100%;
+	height: 440px;
+	top: 360px;
+	border-radius: 30px;
+	background: #FFFFFF;
+}
+
+
+/* ! */
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 25px 25px 35px 25px;
+}
+
+.card__title {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 25px;
+	text-align: center;
+
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.card__subtitle {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.card__text {
+	width: 280px;
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom: 20px;
+}
+
+.card__btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	width: 148px;
+	height: 48px;
+	border: none;
+	border-radius: 30px;
+	background: #2690DE;
+	margin-bottom: 5px;
+}
+
+
+/* ! */
+.card_footer {
+	height: 126px;
+	margin: 0 5px 5px 0;
+	background: 
+		url(/pictures/card_footer__bg.svg) no-repeat 0 5px,	
+		linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
+	border-radius: 30px;
+}
+
+.card_footer__title {
+	transform: translateX(220%) translateY(20%);
+	width: 135px;
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.85);
+}
+
+.card_footer__btn {
+	transform: translateX(315%) translateY(40%);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border: none;
+	border-radius: 30px;
+	width: 100px;
+	height: 38px;
+	background: #2690DE;
+}
