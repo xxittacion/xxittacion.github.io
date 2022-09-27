@@ -5,35 +5,68 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
-	<title>App</title>
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
+	<title>Telegram app</title>
+	<link rel="stylesheet" href="/style/style.css">
 </head>
 
 <body>
 	<div class="container">
-		<header class="header">
-			<!-- <img class="header-bg" src="/pictures/header_bg.svg" alt="header-bg"> -->
+		<header>
+			<h1 class="header_title">Choose Movie</h1>
+			<nav class="navbar">
+				<form class="main_form">
+					<fieldset class="main_form__container">
+						<input class="main_form__input" type="text" placeholder="Search">
+					</fieldset>
+				</form>
+			</nav>
 		</header>
 
 		<main class="main">
-			<div class="cardHeader">
-				<h2 class="cardTitle">Horizon</h2>
-				<p class="cardSubTitle">Forbidden West</p>
-				<p class="cardDescription">Join Aloy as she braves the Forbidden West – a majestic but dangerous frontier that conceals mysterious new threats.</p>
-				<button class="cardButton">Play now</button>
-			</div>
+			<h2 class="main_title">Now Playing</h2>
 
-			<div class="cardFooter">
-				
-			</div>
+			<section class="slider">
+				<div class="slider_inner">
+					<div class="slide slide_1"></div>
+					<div class="slide slide_2"></div>
+					<div class="slide slide_3"></div>
+					<div class="slide slide_4"></div>
+					<div class="slide slide_5"></div>
+					<div class="slide slide_6"></div>
+				</div>
+			</section>
+
+			<h2 class="main_title">Coming Soon</h2>
+
+			<section class="slider">
+				<div class="slider_inner">
+					<div class="slide slide_4"></div>
+					<div class="slide slide_5"></div>
+					<div class="slide slide_6"></div>
+					<div class="slide slide_1"></div>
+					<div class="slide slide_2"></div>
+					<div class="slide slide_3"></div>
+				</div>
+			</section>
+
+			<h2 class="main_title">Top movies</h2>
+
+			<section class="slider">
+				<div class="slider_inner">
+					<div class="slide slide_7"></div>
+					<div class="slide slide_8"></div>
+					<div class="slide slide_9"></div>
+					<div class="slide slide_1"></div>
+					<div class="slide slide_2"></div>
+					<div class="slide slide_3"></div>
+				</div>
+			</section>
+		
 		</main>
-	
 	</div>
 
 
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
-	<script src="script.js"></script>
 </body>
 
 </html>
