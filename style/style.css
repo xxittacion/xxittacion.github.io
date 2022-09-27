@@ -5,9 +5,9 @@
 	position: absolute;
 	min-width: 390px;
 	height: 844px;
-	left: 35%;
+	/* left: 35%; */
 	background: linear-gradient(170.53deg, #2E1371 2.71%, #130B2B 97.75%);
-	border-radius: 50px;
+	/* border-radius: 50px; */
 	overflow: hidden;
 }
 
