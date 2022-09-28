@@ -11,7 +11,6 @@
 	max-width: 479px;
 	min-height: 479px;
 	background: url(/pictures/home_header__bg.svg) no-repeat center / cover;
-	background-size: cover;
 }
 
 .productCard_main {
