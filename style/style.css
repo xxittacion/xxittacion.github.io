@@ -84,7 +84,7 @@
 	position: relative;
 	max-width: 479px;
 	height: 126px;
-	margin: 20px 10px 10px 10px;
+	margin: 20px 10px 5px 10px;
 	background: 
 		url(/pictures/footer_card__bg.svg) no-repeat 0 5px,	
 		linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
