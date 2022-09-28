@@ -1,58 +1,50 @@
 @import url(/style/reset.css);
 
 
-/* ! */
 .home {
-	position: absolute;
 	max-width: 479px;
 	width: 100%;
 	height: 800px;
-	border-radius: 30px;
 	box-shadow: 0px 40px 100px rgba(19, 43, 103, 0.3);
 }
 
-.home_bg__wrapper {
-	height: 389px;
-}
-
-.home_bg {
-	position: fixed;
+.home_header {
 	max-width: 479px;
 	width: 100%;
+	height: 100%;
+	background: url(/pictures/header_bg.svg) no-repeat center;
+	background-size: cover;
 }
 
-.home_card__bg {
+.home_main__card {
 	position: absolute;
 	max-width: 479px;
 	width: 100%;
-	height: 440px;
-	top: 360px;
 	border-radius: 30px;
 	background: #FFFFFF;
+	transform: translateY(-10%);
 }
 
-
-/* ! */
-.card {
+.main_card {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 25px 25px 35px 25px;
+	margin: 25px 20px 35px 20px;
 }
 
-.card__title {
+.main_card__title {
 	font-family: 'Hurme Geometric Sans 1';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 25px;
 	text-align: center;
-
 	color: rgba(0, 0, 0, 0.85);
 }
 
-.card__subtitle {
+.main_card__subtitle {
+	display: inline-block;
 	font-family: 'Hurme Geometric Sans 1';
 	font-style: normal;
 	font-weight: 400;
@@ -62,7 +54,7 @@
 	margin-bottom: 20px;
 }
 
-.card__text {
+.main_card__text {
 	width: 280px;
 	font-family: 'Hurme Geometric Sans 1';
 	font-style: normal;
@@ -75,7 +67,7 @@
 	margin-bottom: 20px;
 }
 
-.card__btn {
+.main_card__btn {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -89,43 +81,13 @@
 	margin-bottom: 5px;
 }
 
-
-/* ! */
-.card_footer {
-	position: absolute;
-	min-width: 350px;
-	max-width: 469px;
-	width: 100%;
+.footer__card{
+	position: relative;
+	max-width: 479px;
 	height: 126px;
-	margin: 0 5px 5px 0;
+	margin: 20px 10px 20px 10px;
 	background: 
 		url(/pictures/card_footer__bg.svg) no-repeat 0 5px,	
 		linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
 	border-radius: 30px;
 }
-
-/* .card_footer__title {
-	transform: translateX(220%) translateY(20%);
-	width: 135px;
-	font-family: 'Hurme Geometric Sans 1';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 31px;
-	text-align: center;
-	color: rgba(0, 0, 0, 0.85);
-} */
-
-/* .card_footer__btn {
-	transform: translateX(315%) translateY(40%);
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 10px;
-	border: none;
-	border-radius: 30px;
-	width: 100px;
-	height: 38px;
-	background: #2690DE;
-} */
