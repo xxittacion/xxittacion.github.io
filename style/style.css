@@ -81,7 +81,6 @@
 }
 
 .footer__card{
-	position: relative;
 	max-width: 479px;
 	height: 126px;
 	margin: 20px 10px 5px 10px;
@@ -89,4 +88,39 @@
 		url(/pictures/footer_card__bg.svg) no-repeat 0 5px,	
 		linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
 	border-radius: 30px;
+}
+
+.footer__card__wrapper {
+	position: relative;
+	width: 156px;
+	height: 120px;
+	left: 175px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_card__title {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.85);
+	margin: 10px 0 10px 0;
+}
+
+.footer_card__btn {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	width: 100px;
+	height: 38px;
+	border: none;
+	border-radius: 30px;
+	background: #2690DE;
 }
