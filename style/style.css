@@ -12,7 +12,7 @@
 	max-width: 479px;
 	width: 100%;
 	height: 100%;
-	background: url(/pictures/header_bg.svg) no-repeat center;
+	background: url(/pictures/home_header__bg.svg) no-repeat center;
 	background-size: cover;
 }
 
@@ -87,7 +87,7 @@
 	height: 126px;
 	margin: 20px 10px 20px 10px;
 	background: 
-		url(/pictures/card_footer__bg.svg) no-repeat 0 5px,	
+		url(/pictures/footer_card__bg.svg) no-repeat 0 5px,	
 		linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
 	border-radius: 30px;
 }
