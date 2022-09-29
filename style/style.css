@@ -1,33 +1,44 @@
 @import url(/style/reset.css);
 
 
+@media screen and (min-width: 320px) and (max-width : 412px) {
+}
+
+@media screen and (min-width: 414px) and (max-width : 800px) {
+}
+
+
 .productCard {
-	max-width: 479px;
-	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 414px;
+	min-width: 320px;
 	box-shadow: 0px 40px 100px rgba(19, 43, 103, 0.3);
 }
 
 .productCard_header {
-	max-width: 479px;
-	min-height: 479px;
-	background: url(/pictures/home_header__bg.svg) no-repeat center / cover;
+	width: 100%;
+	min-height: 389px;
+	background: url(/pictures/productCard_header.svg) no-repeat center / cover;
 }
 
 .productCard_main {
-	position: absolute;
-	max-width: 479px;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	border-radius: 30px;
 	background: #FFFFFF;
-	transform: translateY(-10%);
+	transform: translateY(-8%);
 }
 
 .mainCard {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	margin: 25px 20px 0 20px;
+	justify-content: center;
+	margin: 20px;
+	gap: 20px;
 }
 
 .mainCard_title {
@@ -41,14 +52,12 @@
 }
 
 .mainCard_subtitle {
-	display: inline-block;
 	font-family: 'Hurme Geometric Sans 1';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 25px;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
 .mainCard_text {
@@ -61,43 +70,36 @@
 	text-align: center;
 	letter-spacing: 0.01em;
 	color: rgba(0, 0, 0, 0.8);
-	margin-bottom: 20px;
 }
 
 .mainCard_btn {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	padding: 10px;
 	width: 148px;
 	height: 48px;
 	border: none;
 	border-radius: 30px;
 	background: #2690DE;
-	margin-bottom: 5px;
 }
 
 .productCard_footer {
-	max-width: 479px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
 	height: 126px;
-	margin: 20px 10px 5px 10px;
+	margin: 0 10px 5px 10px;
 	background: 
-		url(/pictures/footer_card__bg.svg) no-repeat 0 5px,	
+		url(/pictures/productCard_footer.svg) no-repeat 0 5px,	
 		linear-gradient(97.87deg, rgba(88, 225, 243, 0.3) 7%, rgba(37, 82, 228, 0.3) 95.86%);
 	border-radius: 30px;
 }
 
-.productCard_wrapper {
-	position: relative;
-	width: 156px;
-	height: 120px;
-	left: 175px;
+.footerCard {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 5px;
+	width: 156px;
+	height: 120px;
 }
 
 .footerCard_title {
@@ -111,10 +113,6 @@
 }
 
 .footerCard_btn {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
 	padding: 10px;
 	width: 100px;
 	height: 38px;
