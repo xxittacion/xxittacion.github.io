@@ -72,6 +72,14 @@
 	border-radius: 25px;
 }
 
+.img {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border-radius: 25px;
+	background: linear-gradient(102.58deg, rgba(159, 209, 246, 0.5) -7.86%,rgba(0, 109, 203, 0.5) 108.57%);;
+}
+
 .cardGame_description {
 	font-family: 'Roboto';
 	font-style: normal;
