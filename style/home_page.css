@@ -17,12 +17,28 @@
 
 	margin-bottom: 20px;
 	background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
-	margin-bottom: 40px;
+	margin-bottom: 10px;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	margin: 10px;
+	border-radius: 20px;
+	background: transparent;
+}
+
+.nav_logo {
+	width: 48px;
+	height: 48px;
 }
 
 .homePage_container {
 	max-width: 414px;
-	padding: 10px;
+	padding: 0 10px 10px 10px;
 	background: #EFF2F3;
 }
 
