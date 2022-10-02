@@ -1,10 +1,6 @@
 @import url(/style/reset.css);
 
-/* @media screen and (max-width : 414px) {
-	.homePage {
-		padding: calc(10px * ((100vh - 320px) / (414 - 320)));
-	}
-} */
+@media screen and (max-width : px) {}
 
 .homePage {
 	max-width: 425px;
@@ -13,29 +9,19 @@
 }
 
 .homePage_header {
-	height: 250px;
-
-	margin-bottom: 20px;
+	height: 280px;
 	background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
-	margin-bottom: 10px;
 }
 
 .nav {
+	margin: 0 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin: 10px;
 	border-radius: 20px;
 	background: transparent;
-	/* box-shadow: 0px -10px 10px 10px rgba(0, 0, 0, 0.05); */
-
 }
-
-/* .nav_logo {
-	width: 48px;
-	height: 48px;
-} */
 
 .homePage_container {
 	max-width: 414px;
@@ -56,10 +42,9 @@
 
 .bigCard {
 	height: 230px;
-
 	border-radius: 20px;
-	margin-bottom: 20px;
 	background: linear-gradient(102.58deg, rgba(159, 209, 246, 0.5) -7.86%, rgba(0, 109, 203, 0.5) 108.57%);
+	margin-bottom: 20px;
 }
 
 .litleCard_title {
@@ -85,8 +70,8 @@
 .litleCard {
 	height: 100px;
 	border-radius: 20px;
-	margin-bottom: 20px;
 	background: linear-gradient(102.58deg, rgba(159, 209, 246, 0.5) -7.86%, rgba(0, 109, 203, 0.5) 108.57%);
+	margin-bottom: 20px;
 }
 
 .litleCard_title {
@@ -115,52 +100,49 @@
 
 .homePage_main {
 	display: flex;
-	gap: 10px;
 	flex-direction: row;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	gap: 10px;
 	padding: 20px 10px;
 	border-radius: 30px;
-	box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.05);
-	background: #FFFFFF;
+	background: transparent;
+	/* background: #FFFFFF; */
 }
 
 .mainСard {
+	width: 45%;
+	height: 175px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 45%;
-	height: 175px;
-	background: #F4FBFD;
-	/* box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15); */
 	border-radius: 25px;
-	background: linear-gradient(102.58deg,rgba(159, 209, 246, 0.5) -7.86%,rgba(0, 109, 203, 0.5) 108.57%);
+	background: #F4FBFD;
+	background: linear-gradient(102.58deg, rgba(159, 209, 246, 0.5) -7.86%, rgba(0, 109, 203, 0.5) 108.57%);
 }
 
 @media screen and (min-width : 375px) {
 	.main_card {
+		width: 45%;
+		height: 195px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 45%;
-		height: 195px;
-		background: #F4FBFD;
-		box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15);
 		border-radius: 25px;
-		background: linear-gradient(102.58deg,rgba(159, 209, 246, 0.5) -7.86%,rgba(0, 109, 203, 0.5) 108.57%);
+		background: #F4FBFD;
+		background: linear-gradient(102.58deg, rgba(159, 209, 246, 0.5) -7.86%, rgba(0, 109, 203, 0.5) 108.57%);
 	}
 }
 
 @media screen and (min-width : 425px) {
 	.main_card {
+		width: 45%;
+		height: 215px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 45%;
-		height: 215px;
-		background: #F4FBFD;
-		box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15);
 		border-radius: 25px;
-		background: linear-gradient(102.58deg,rgba(159, 209, 246, 0.5) -7.86%,rgba(0, 109, 203, 0.5) 108.57%);
+		background: #F4FBFD;
+		background: linear-gradient(102.58deg, rgba(159, 209, 246, 0.5) -7.86%, rgba(0, 109, 203, 0.5) 108.57%);
 	}
 }
