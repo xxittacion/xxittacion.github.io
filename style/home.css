@@ -2,12 +2,12 @@
 
 @media screen and (max-width : px) {}
 
-.homePage {
+.home {
 	max-width: 425px;
 	background: #EFF2F3;
 }
 
-.homePage_header {
+.home_header {
 	height: 280px;
 	padding: 8px 8px 0 0;
 	background: linear-gradient(to top, #2196f3, #f2fcfe);
@@ -23,7 +23,7 @@
 	background: transparent;
 }
 
-.homePage_container {
+.home_container {
 	max-width: 414px;
 	padding: 10px;
 	background: #EFF2F3;
@@ -98,7 +98,7 @@
 	color: rgba(0, 0, 0, 0.85);
 }
 
-.homePage_main {
+.home_main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
