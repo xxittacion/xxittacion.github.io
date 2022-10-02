@@ -43,7 +43,7 @@
 .bigCard {
 	height: 230px;
 	border-radius: 20px;
-	background: #2196f3;
+	background: linear-gradient(to top, #f2fcfe, #2196f3);
 	margin-bottom: 20px;
 }
 
