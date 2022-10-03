@@ -10,17 +10,18 @@
 .home_header {
 	height: 280px;
 	padding: 8px 0 0 0;
-	background: linear-gradient(to top, #2196f3, #f2fcfe);
+	/* background: linear-gradient(to top, #2196f3, #f2fcfe); */
+	background: linear-gradient(to right, #db36a4, #f7ff00);
 }
 
-.header_icon {
+/* .header_icon {
 	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	border-radius: 20px;
 	background: transparent;
-}
+} */
 
 .home_container {
 	max-width: 414px;
@@ -31,7 +32,8 @@
 .products_cards {
 	height: 230px;
 	border-radius: 20px;
-	background: #2196f3;
+	/* background: #2196f3; */
+	background: linear-gradient(to right, #db36a4, #f7ff00);
 	margin: 10px 0 20px 0;
 }
 
