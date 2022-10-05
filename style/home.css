@@ -30,7 +30,8 @@
 .products_cards {
 	height: 230px;
 	border-radius: 20px;
-	background: linear-gradient(to top, #c471ed, #2196f3);  
+	/* background: linear-gradient(to top, #c471ed, #2196f3); */
+	background: url(/pictures/products_cards_bg.jpg) no-repeat center / cover;
 	margin: 20px 0 25px 0;
 }
 
