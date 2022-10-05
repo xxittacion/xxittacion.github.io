@@ -50,8 +50,8 @@
 	height: 100px;
 	border-radius: 20px;
 	background: linear-gradient(145deg, #2196f3 0%, #c471ed 50%, #f64f59 100%);
-	background-size: 400%;
-	animation: action_card 10s infinite linear;
+	background-size: 300%;
+	animation: action_card 8s infinite linear;
 }
 
 @keyframes action_card {
@@ -95,7 +95,7 @@
 	align-items: center;
 	border-radius: 25px;
 	background: linear-gradient(145deg, #c471ed 50%, #2196f3 100%);
-	background-size: 400%;
+	background-size: 200%;
 	animation: main_card 5s infinite linear;
 }
 
@@ -120,7 +120,7 @@
 		align-items: center;
 		border-radius: 25px;
 		background: linear-gradient(145deg, #c471ed 50%, #2196f3 100%);
-		background-size: 400%;
+		background-size: 200%;
 		animation: main_card 5s infinite linear;
 	}
 
@@ -146,7 +146,7 @@
 		align-items: center;
 		border-radius: 25px;
 		background: linear-gradient(145deg, #c471ed 50%, #2196f3 100%);
-		background-size: 400%;
+		background-size: 200%;
 		animation: main_card 5s infinite linear;
 	}
 
@@ -179,8 +179,8 @@
 	height: 100px;
 	border-radius: 20px;
 	background: linear-gradient(145deg, #f64f59 0%, #c471ed 50%, #2196f3 100%);
-	background-size: 400%;
-	animation: home_footer 10s infinite linear;
+	background-size: 300%;
+	animation: home_footer 8s infinite linear;
 	margin: 20px 0 0 0;
 }
 
