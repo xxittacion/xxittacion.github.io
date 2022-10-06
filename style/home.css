@@ -114,20 +114,6 @@
 	height: 175px;
 	border-radius: 25px;
 	background: linear-gradient(45deg, #2999f9 0%, #c444ed 100%);
-	background-size: 200%;
-	animation: main_card 3s infinite linear;
-}
-
-@keyframes main_card {
-	0% {
-			background-position: 0%;
-	}
-	50% {
-			background-position: 100%;
-	}
-	100% {
-			background-position: 0%;
-	}
 }
 
 .main_card__description {
@@ -151,20 +137,6 @@
 		height: 195px;
 		border-radius: 25px;
 		background: linear-gradient(45deg, #2999f9 0%, #c444ed 100%);
-		background-size: 200%;
-		animation: main_card 3s infinite linear;
-	}
-
-	@keyframes main_card {
-		0% {
-				background-position: 0%;
-		}
-		50% {
-				background-position: 100%;
-		}
-		100% {
-				background-position: 0%;
-		}
 	}
 
 	.main_card__description {
@@ -188,21 +160,7 @@
 		width: 48%;
 		height: 215px;
 		border-radius: 25px;
-		background: linear-gradient(90deg, #2999f9 0%, #c444ed 100%);
-		background-size: 200%;
-		animation: main_card 3s infinite linear;
-	}
-
-	@keyframes main_card {
-		0% {
-				background-position: 0%;
-		}
-		50% {
-				background-position: 100%;
-		}
-		100% {
-				background-position: 0%;
-		}
+		background: linear-gradient(45deg, #2999f9 0%, #c444ed 100%);
 	}
 
 	.main_card__description {
