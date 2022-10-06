@@ -9,8 +9,8 @@
 
 .home_header {
 	height: 280px;
-	background: linear-gradient(45deg, #0088cc 0%, #c471ed 100%);
-	background-size: 250%;
+	background: linear-gradient(45deg, #0088cc 0%, #c444ed 70%, #f5555e 100%);
+	background-size: 200%;
 	animation: home_header 5s infinite linear;
 }
 
@@ -57,8 +57,8 @@
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(45deg, #0088cc 0%, #c471ed 50%, #ff333f 100%);
-	background-size: 250%;
+	background: linear-gradient(45deg, #0088cc 0%, #c444ed 70%, #f5555e 100%);
+	background-size: 200%;
 	animation: action_card 5s infinite linear;
 }
 
@@ -113,8 +113,8 @@
 	width: 48%;
 	height: 175px;
 	border-radius: 25px;
-	background: linear-gradient(45deg, #0088cc 0%, #c471ed 100%);
-	background-size: 250%;
+	background: linear-gradient(45deg, #0088cc 0%, #c444ed 100%);
+	background-size: 200%;
 	animation: main_card 5s infinite linear;
 }
 
@@ -150,8 +150,8 @@
 		width: 48%;
 		height: 195px;
 		border-radius: 25px;
-		background: linear-gradient(45deg, #0088cc 0%, #c471ed 100%);
-		background-size: 250%;
+		background: linear-gradient(45deg, #0088cc 0%, #c444ed 100%);
+		background-size: 200%;
 		animation: main_card 5s infinite linear;
 	}
 
@@ -188,9 +188,9 @@
 		width: 48%;
 		height: 215px;
 		border-radius: 25px;
-		background: linear-gradient(45deg, #0088cc 0%, #c471ed 100%);
-		background-size: 250%;
-		animation: main_card 5s infinite linear;
+		background: linear-gradient(90deg, #0088cc 0%, #c444ed 100%);
+		background-size: 200%;
+		animation: main_card 3s infinite linear;
 	}
 
 	@keyframes main_card {
@@ -233,8 +233,8 @@
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(45deg, #ff333f 0%, #c471ed 50%, #0088cc 100%);
-	background-size: 250%;
+	background: linear-gradient(45deg, #f5555e 0%, #c444ed 30%, #0088cc 100%);
+	background-size: 200%;
 	animation: home_footer 5s infinite linear;
 	margin: 20px 0 0 0;
 }
