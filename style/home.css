@@ -4,27 +4,33 @@
 
 .home {
 	max-width: 425px;
-	background: #EFF2F3;
+	/* background: #EFF2F3; */
 }
 
 .home_header {
 	height: 280px;
-	background: linear-gradient(to bottom, #c471ed, #2196f3);
+	/* background: linear-gradient(to bottom, #c471ed, #0088cc); */
+	background: linear-gradient(45deg, #0088cc 0%, #c471ed 50%, #ff333f 100%);
+	background-size: 250%;
+	animation: home_header 5s infinite linear;
 }
 
-/* .header_icon {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	border-radius: 20px;
-	background: transparent;
-} */
+@keyframes home_header {
+	0% {
+			background-position: 0%;
+	}
+	50% {
+			background-position: 100%;
+	}
+	100% {
+			background-position: 0%;
+	}
+}
 
 .home_container {
 	max-width: 414px;
 	padding: 0 15px 15px;
-	background: #EFF2F3;
+	/* background: #EFF2F3; */
 }
 
 .products_cards {
@@ -32,7 +38,7 @@
 	border-radius: 20px;
 	/* background: linear-gradient(to top, #c471ed, #2196f3); */
 	background: url(/pictures/products_cards_bg.jpg) no-repeat center / cover;
-	margin: 20px 0 25px 0;
+	margin: 25px 0;
 }
 
 /* .action_card__title {
@@ -48,11 +54,13 @@
 } */
 
 .action_card {
+	box-sizing: border-box;
+	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(145deg, #2196f3 0%, #c471ed 50%, #f64f59 100%);
-	background-size: 200%;
-	animation: action_card 4s infinite linear;
+	background: linear-gradient(45deg, #0088cc 0%, #c471ed 50%, #ff333f 100%);
+	background-size: 250%;
+	animation: action_card 5s infinite linear;
 }
 
 @keyframes action_card {
@@ -67,8 +75,18 @@
 	}
 }
 
+.action_card__description {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: white;
+}
+
 .home_main__title {
-	width: 140px;
+	width: 155px;
 	margin: 30px 200px 20px 20px;
 	font-family: 'Hurme Geometric Sans 1';
 	font-style: normal;
@@ -85,44 +103,79 @@
 	justify-content: space-between;
 	flex-wrap: wrap;
 	background: transparent;
-	margin-bottom: 25px;
 }
 
 .main_card {
-	width: 48%;
-	height: 175px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	box-sizing: border-box;
+	padding: 15px 0;
+	width: 48%;
+	height: 175px;
 	border-radius: 25px;
-	background: linear-gradient(to right, #2196f3, #c471ed);
+	background: linear-gradient(to right, #0088cc, #c471ed);
+}
+
+.main_card__description {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	letter-spacing: 0.5px;
+	color: white;
 }
 
 @media screen and (min-width : 375px) {
 	.main_card {
-		width: 48%;
-		height: 195px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		box-sizing: border-box;
+		padding: 15px 0;
+		width: 48%;
+		height: 195px;
 		border-radius: 25px;
-		background: linear-gradient(to right, #2196f3, #c471ed);
+		background: linear-gradient(to right, #0088cc, #c471ed);
+	}
+
+	.main_card__description {
+		font-family: 'Hurme Geometric Sans 1';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.5px;
+		color: white;
 	}
 }
 
 @media screen and (min-width : 425px) {
 	.main_card {
-		width: 48%;
-		height: 215px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		box-sizing: border-box;
+		padding: 15px 0;
+		width: 48%;
+		height: 215px;
 		border-radius: 25px;
-		background: linear-gradient(to right, #2196f3, #c471ed);
+		background: linear-gradient(45deg, #0088cc 0%, #c471ed 100%);
+	}
+
+	.main_card__description {
+		font-family: 'Hurme Geometric Sans 1';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.5px;
+		color: white;
 	}
 }
 
-/* .home_footer__title {
+.home_footer__title {
 	width: 140px;
 	margin: 30px 200px 20px 20px;
 	font-family: 'Hurme Geometric Sans 1';
@@ -132,14 +185,14 @@
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: rgba(0, 0, 0, 0.85);
-} */
+}
 
 .home_footer {
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(145deg, #f64f59 0%, #c471ed 50%, #2196f3 100%);
-	background-size: 200%;
-	animation: home_footer 4s infinite linear;
+	background: linear-gradient(45deg, #ff333f 0%, #c471ed 50%, #0088cc 100%);
+	background-size: 250%;
+	animation: home_footer 5s infinite linear;
 	margin: 20px 0 0 0;
 }
 
