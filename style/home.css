@@ -9,7 +9,7 @@
 
 .home_header {
 	height: 280px;
-	background: linear-gradient(45deg, #2999f9 0%, #c444ed 50%, #f5555e 100%);
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 75%, #f5555e 100%);
 	background-size: 200%;
 	animation: home_header 4s infinite linear;
 }
