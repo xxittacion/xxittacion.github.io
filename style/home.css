@@ -41,7 +41,7 @@
 	margin: 25px 0;
 }
 
-/* .action_card__title {
+.action_card__title {
 	width: 140px;
 	margin: 30px 200px 20px 20px;
 	font-family: 'Hurme Geometric Sans 1';
@@ -51,7 +51,7 @@
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: rgba(0, 0, 0, 0.85);
-} */
+}
 
 .action_card {
 	box-sizing: border-box;
@@ -188,6 +188,8 @@
 }
 
 .home_footer {
+	box-sizing: border-box;
+	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
 	background: linear-gradient(45deg, #ff333f 0%, #c471ed 50%, #0088cc 100%);
@@ -206,4 +208,14 @@
 	100% {
 			background-position: 0%;
 	}
+}
+
+.home_footer__description {
+	font-family: 'Hurme Geometric Sans 1';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: white;
 }
