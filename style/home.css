@@ -108,10 +108,11 @@
 }
 
 .main_card {
+	position: relative;
 	display: flex;
 	flex: 0 1 50%;
 	padding: 15px;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-start;
 	border-radius: 25px;
 	background: linear-gradient(45deg, #2999f9 0%, #c444ed 100%);
@@ -125,6 +126,14 @@
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: white;
+}
+
+.main_card__icon {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 8px;
+	right: 8px;
 }
 
 /* @media screen and (min-width : 375px) {
