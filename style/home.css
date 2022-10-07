@@ -9,7 +9,7 @@
 
 .home_header {
 	height: 280px;
-	background: linear-gradient(45deg, #2999f9 0%, #c444ed 60%, #f5555e 100%);
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 70%, #f5555e 100%);
 	background-size: 200%;
 	animation: home_header 4s infinite linear;
 }
@@ -57,7 +57,7 @@
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(45deg, #2999f9 0%, #c444ed 60%, #f5555e 100%);
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 70%, #f5555e 100%);
 	background-size: 200%;
 	animation: action_card 4s infinite linear;
 }
@@ -188,7 +188,7 @@
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(45deg, #f5555e 0%, #c444ed 60%, #2999f9 100%);
+	background: linear-gradient(45deg, #f5555e 0%, #c444ed 30%, #2999f9 100%);
 	background-size: 200%;
 	animation: home_footer 4s infinite linear;
 	margin: 20px 0 0 0;
