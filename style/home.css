@@ -9,7 +9,7 @@
 
 .home_header {
 	height: 280px;
-	background: linear-gradient(45deg, #2999f9 0%, #c444ed 70%, #f5555e 100%);
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 60%, #f5555e 100%);
 	background-size: 200%;
 	animation: home_header 4s infinite linear;
 }
@@ -57,7 +57,7 @@
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(45deg, #2999f9 0%, #c444ed 50%, #f5555e 100%);
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 60%, #f5555e 100%);
 	background-size: 200%;
 	animation: action_card 4s infinite linear;
 }
@@ -98,20 +98,17 @@
 
 .home_main {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	height: 200px;
+	gap: 15px;
 	background: transparent;
 }
 
 .main_card {
 	display: flex;
+	flex: 0 1 50%;
+	padding: 15px;
 	flex-direction: column;
-	align-items: center;
-	box-sizing: border-box;
-	padding: 15px 0;
-	width: 48%;
-	height: 175px;
+	align-items: flex-start;
 	border-radius: 25px;
 	background: linear-gradient(45deg, #2999f9 0%, #c444ed 100%);
 }
@@ -126,7 +123,7 @@
 	color: white;
 }
 
-@media screen and (min-width : 375px) {
+/* @media screen and (min-width : 375px) {
 	.main_card {
 		display: flex;
 		flex-direction: column;
@@ -148,9 +145,9 @@
 		letter-spacing: 0.5px;
 		color: white;
 	}
-}
+} */
 
-@media screen and (min-width : 425px) {
+/* @media screen and (min-width : 425px) {
 	.main_card {
 		display: flex;
 		flex-direction: column;
@@ -172,7 +169,7 @@
 		letter-spacing: 0.5px;
 		color: white;
 	}
-}
+} */
 
 .home_footer__title {
 	width: 140px;
@@ -191,7 +188,7 @@
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
-	background: linear-gradient(45deg, #f5555e 0%, #c444ed 50%, #2999f9 100%);
+	background: linear-gradient(45deg, #f5555e 0%, #c444ed 60%, #2999f9 100%);
 	background-size: 200%;
 	animation: home_footer 4s infinite linear;
 	margin: 20px 0 0 0;
