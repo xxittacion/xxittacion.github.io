@@ -35,11 +35,12 @@
 	height: 25px;
 	/* border: 1px solid white; */
 	/* border-radius: 50px; */
-	background: url(/pictures/star_icon.png) no-repeat center;
+	background: url(/pictures/кленовый_лист.png) no-repeat center;
 }
 
 .header_box div:nth-child(1) {
 	left: 5%;
+	background: url(/pictures/упавший-лист.png) no-repeat center;
 	animation: animate 9s linear infinite; 
 }
 
@@ -52,7 +53,8 @@
 .header_box div:nth-child(3) {
 	/* top: 40%; */
 	left: 25%;
-	animation: animate 7s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 7s linear infinite;
 }
 
 .header_box div:nth-child(4) {
@@ -64,7 +66,8 @@
 .header_box div:nth-child(5) {
 	/* top: 90%; */
 	left: 45%;
-	animation: animate 8s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 8s linear infinite;
 }
 
 .header_box div:nth-child(6) {
@@ -76,7 +79,8 @@
 .header_box div:nth-child(7) {
 	/* top: 70%; */
 	left: 65%;
-	animation: animate 9s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 9s linear infinite;
 }
 
 .header_box div:nth-child(8) {
@@ -88,7 +92,8 @@
 .header_box div:nth-child(9) {
 	/* top: 50%; */
 	left: 85%;
-	animation: animate 7s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 7s linear infinite;
 }
 
 .header_box div:nth-child(10) {
@@ -100,7 +105,8 @@
 .header_box div:nth-child(11) {
 	top: 10%;
 	left: 20%;
-	animation: animate 8s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 8s linear infinite;
 }
 
 .header_box div:nth-child(12) {
@@ -112,7 +118,8 @@
 .header_box div:nth-child(13) {
 	top: 10%;
 	left: 50%;
-	animation: animate 9s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 9s linear infinite;
 }
 
 .header_box div:nth-child(14) {
@@ -124,7 +131,8 @@
 .header_box div:nth-child(15) {
 	top: 20%;
 	left: 5%;
-	animation: animate 8s linear infinite; 
+	background: url(/pictures/упавший-лист.png) no-repeat center;
+	animation: animate 8s linear infinite;
 }
 
 @keyframes animate {
