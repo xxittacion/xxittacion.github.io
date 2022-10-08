@@ -130,7 +130,7 @@
 		opacity: 0.5;
 	}
 	100% {
-		transform: scale(1) translateY(260px) rotate(360deg);
+		transform: scale(1) translateY(280px) rotate(360deg);
 		opacity: 1;
 	}
 }
