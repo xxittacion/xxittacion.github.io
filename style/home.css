@@ -30,15 +30,14 @@
 
 .header_box div {
 	position: absolute;
-	opacity: 0;
 	width: 25px;
 	height: 25px;
-	background: url(/pictures/кленовый_лист.png) no-repeat center / cover;
+	background: url(/pictures/кленовый_лист.png);
 }
 
 .header_box div:nth-child(1) {
 	left: 0%;
-	background: url(/pictures/упавший_лист.png) no-repeat center / cover;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 6s linear infinite; 
 }
 
@@ -49,7 +48,7 @@
 
 .header_box div:nth-child(3) {
 	left: 20%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 7s linear infinite;
 }
 
@@ -60,7 +59,7 @@
 
 .header_box div:nth-child(5) {
 	left: 40%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 5s linear infinite;
 }
 
@@ -71,7 +70,7 @@
 
 .header_box div:nth-child(7) {
 	left: 60%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 6s linear infinite;
 }
 
@@ -82,7 +81,7 @@
 
 .header_box div:nth-child(9) {
 	left: 80%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 7s linear infinite;
 }
 
@@ -94,7 +93,7 @@
 .header_box div:nth-child(11) {
 	top: 20%;
 	left: 10%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 5s linear infinite;
 }
 
@@ -107,7 +106,7 @@
 .header_box div:nth-child(13) {
 	top: 20%;
 	left: 70%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 6s linear infinite;
 }
 
@@ -120,18 +119,17 @@
 .header_box div:nth-child(15) {
 	top: 40%;
 	left: 55%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png);
 	animation: animate 7s linear infinite;
 }
 
 @keyframes animate {
 	0% {
 		transform: scale(0);
-		opacity: 1;
 	}
 	100% {
 		transform: scale(1) translateY(280px) rotate(360deg);
-		opacity: 1;
+		/* opacity: 1; */
 	}
 }
 
