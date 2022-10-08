@@ -30,14 +30,15 @@
 
 .header_box div {
 	position: absolute;
+	opacity: 0;
 	width: 48px;
 	height: 48px;
-	background: url(/pictures/кленовый_лист.png) no-repeat;
+	background: url(/pictures/кленовый_лист.png) no-repeat center / cover;
 }
 
 .header_box div:nth-child(1) {
 	left: 0%;
-	background: url(/pictures/упавший_лист.png) no-repeat center;
+	background: url(/pictures/упавший_лист.png) no-repeat center / cover;
 	animation: animate 7s linear infinite; 
 }
 
@@ -126,7 +127,7 @@
 @keyframes animate {
 	0% {
 		transform: scale(0) translateY(0px) rotate(90deg);
-		opacity: 0.5;
+		opacity: 1;
 	}
 	100% {
 		transform: scale(1) translateY(280px) rotate(360deg);
