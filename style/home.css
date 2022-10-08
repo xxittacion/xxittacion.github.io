@@ -37,72 +37,63 @@
 }
 
 .header_box div:nth-child(1) {
-	left: 5%;
+	left: 0%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 6s linear infinite; 
 }
 
 .header_box div:nth-child(2) {
-	/* top: 60%; */
-	left: 15%;
+	left: 10%;
 	animation: animate 9s linear infinite; 
 }
 
 .header_box div:nth-child(3) {
-	/* top: 40%; */
-	left: 25%;
+	left: 20%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 7s linear infinite;
 }
 
 .header_box div:nth-child(4) {
-	/* top: 60%; */
-	left: 35%;
+	left: 30%;
 	animation: animate 8s linear infinite; 
 }
 
 .header_box div:nth-child(5) {
-	/* top: 90%; */
-	left: 45%;
+	left: 40%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 5s linear infinite;
 }
 
 .header_box div:nth-child(6) {
-	/* top: 30%; */
-	left: 55%;
+	left: 50%;
 	animation: animate 7s linear infinite; 
 }
 
 .header_box div:nth-child(7) {
-	/* top: 70%; */
-	left: 65%;
+	left: 60%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 6s linear infinite;
 }
 
 .header_box div:nth-child(8) {
-	/* top: 75%; */
-	left: 75%;
+	left: 70%;
 	animation: animate 9s linear infinite; 
 }
 
 .header_box div:nth-child(9) {
-	/* top: 50%; */
-	left: 85%;
+	left: 80%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 7s linear infinite;
 }
 
 .header_box div:nth-child(10) {
-	/* top: 45%; */
 	left: 90%;
 	animation: animate 8s linear infinite; 
 }
 
 .header_box div:nth-child(11) {
 	top: 10%;
-	left: 20%;
+	left: 10%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 5s linear infinite;
 }
@@ -128,7 +119,7 @@
 
 .header_box div:nth-child(15) {
 	top: 20%;
-	left: 5%;
+	left: 0%;
 	background: url(/pictures/упавший_лист.png) no-repeat center;
 	animation: animate 7s linear infinite;
 }
@@ -136,7 +127,7 @@
 @keyframes animate {
 	0% {
 		transform: scale(0) translateY(0px) rotate(90deg);
-		opacity: 0;
+		opacity: 0.5;
 	}
 	100% {
 		transform: scale(1) translateY(260px) rotate(360deg);
