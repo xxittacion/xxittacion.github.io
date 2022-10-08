@@ -30,6 +30,13 @@
 
 .header_box div{
 	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: url(/pictures/упавший_лист.png);
+}
+
+.header_box div:nth-child(even) {
+	background: url(/pictures/кленовый_лист.png);
 }
 
 .header_box div:nth-child(1) {
@@ -114,7 +121,7 @@
 
 @keyframes animate {
 	0% {
-		transform: scale(0) translateY(0) rotate(0);
+		transform: scale(0);
 	}
 	100% {
 		transform: scale(1) translateY(280px) rotate(360deg);
