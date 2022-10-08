@@ -30,8 +30,8 @@
 
 .header_box div {
 	position: absolute;
-	width: 25px;
-	height: 25px;
+	width: 48px;
+	height: 48px;
 	background: url(/pictures/кленовый_лист.png) no-repeat;
 }
 
@@ -138,12 +138,12 @@
 		opacity: 0;
 	}
 	50% {
-		transform: scale(1) translateY(150px) rotate(180deg);
+		transform: scale(0.5) translateY(150px) rotate(180deg);
 		opacity: 1;
 	}
 	100% {
-		transform: scale(2) translateY(300px) rotate(360deg);
-		opacity: 1;
+		transform: scale(1) translateY(300px) rotate(360deg);
+		opacity: 2;
 	}
 }
 
