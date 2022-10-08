@@ -28,7 +28,7 @@
 	}
 }
 
-.header_box div{
+.header_box div {
 	position: absolute;
 	width: 25px;
 	height: 25px;
@@ -121,7 +121,7 @@
 
 @keyframes animate {
 	0% {
-		transform: scale(0);
+		transform: scale(0) translateY(0);
 	}
 	100% {
 		transform: scale(1) translateY(280px) rotate(360deg);
