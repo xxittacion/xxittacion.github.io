@@ -95,7 +95,7 @@
 
 .header_box div:nth-child(10) {
 	/* top: 45%; */
-	left: 95%;
+	left: 90%;
 	animation: animate 8s linear infinite; 
 }
 
@@ -121,8 +121,8 @@
 
 .header_box div:nth-child(14) {
 	top: 20%;
-	left: 90%;
-	animation: animate 9s linear infinite; 
+	left: 85%;
+	animation: animate 7s linear infinite; 
 }
 
 .header_box div:nth-child(15) {
@@ -134,11 +134,11 @@
 
 @keyframes animate {
 	0% {
-		transform: scale(0) translateY(0) rotate(90deg);
+		transform: scale(0) translateY(0px) rotate(90deg);
 		opacity: 0;
 	}
 	100% {
-		transform: scale(1) translateY(280px) rotate(360deg);
+		transform: scale(1) translateY(260px) rotate(360deg);
 		opacity: 1;
 	}
 }
