@@ -1,10 +1,7 @@
 @import url(/style/reset.css);
 
-@media screen and (max-width : px) {}
-
 .home {
 	max-width: 425px;
-	/* background: #EFF2F3; */
 }
 
 .home_header {
@@ -28,125 +25,97 @@
 	}
 }
 
-.header_box div {
+.header_animate__bg div {
 	position: absolute;
+	opacity: 0;
 	width: 25px;
 	height: 25px;
 	background: url(/pictures/упавший_лист.png);
+	animation: animate_bg 6s linear infinite;
 }
 
-.header_box div:nth-child(even) {
+.header_animate__bg div:nth-child(even) {
 	background: url(/pictures/кленовый_лист.png);
 }
 
-.header_box div:nth-child(1) {
+.header_animate__bg div:nth-child(3n) {
+	animation: animate_bg 7s linear infinite; 
+}
+
+.header_animate__bg div:nth-child(1) {
 	left: 0%;
-	animation: animate 6s linear infinite; 
 }
 
-.header_box div:nth-child(2) {
+.header_animate__bg div:nth-child(2) {
+	top: 10%;
 	left: 10%;
-	animation: animate 5s linear infinite; 
 }
 
-.header_box div:nth-child(3) {
+.header_animate__bg div:nth-child(3) {
 	left: 20%;
-	animation: animate 7s linear infinite;
 }
 
-.header_box div:nth-child(4) {
+.header_animate__bg div:nth-child(4) {
+	top: 20%;
 	left: 30%;
-	animation: animate 6s linear infinite; 
 }
 
-.header_box div:nth-child(5) {
+.header_animate__bg div:nth-child(5) {
 	left: 40%;
-	animation: animate 5s linear infinite;
 }
 
-.header_box div:nth-child(6) {
+.header_animate__bg div:nth-child(6) {
+	top: 30%;
 	left: 50%;
-	animation: animate 7s linear infinite; 
 }
 
-.header_box div:nth-child(7) {
+.header_animate__bg div:nth-child(7) {
 	left: 60%;
-	animation: animate 6s linear infinite;
 }
 
-.header_box div:nth-child(8) {
+.header_animate__bg div:nth-child(8) {
+	top: 20%;
 	left: 70%;
-	animation: animate 5s linear infinite; 
 }
 
-.header_box div:nth-child(9) {
+.header_animate__bg div:nth-child(9) {
 	left: 80%;
-	animation: animate 7s linear infinite;
 }
 
-.header_box div:nth-child(10) {
+.header_animate__bg div:nth-child(10) {
+	top: 10%;
 	left: 90%;
-	animation: animate 6s linear infinite; 
 }
 
-.header_box div:nth-child(11) {
-	top: 20%;
-	left: 10%;
-	animation: animate 5s linear infinite;
-}
-
-.header_box div:nth-child(12) {
-	top: 20%;
-	left: 40%;
-	animation: animate 7s linear infinite; 
-}
-
-.header_box div:nth-child(13) {
-	top: 20%;
-	left: 70%;
-	animation: animate 6s linear infinite;
-}
-
-.header_box div:nth-child(14) {
-	top: 40%;
-	left: 25%;
-	animation: animate 5s linear infinite; 
-}
-
-.header_box div:nth-child(15) {
-	top: 40%;
-	left: 55%;
-	animation: animate 7s linear infinite;
-}
-
-@keyframes animate {
+@keyframes animate_bg {
 	0% {
 		transform: scale(0) translateY(0) rotate(0deg);
+		opacity: 0.5;
 	}
 	100% {
 		transform: scale(1) translateY(280px) rotate(360deg);
+		opacity: 1;
 	}
 }
 
 .home_container {
 	max-width: 414px;
 	padding: 0 15px 15px;
-	/* background: #EFF2F3; */
 }
 
-.products_card {
+.picture_card {
 	height: 230px;
 	border-radius: 20px;
 	margin: 25px 0;
 }
 
-.product_card__img {
+.picture_card__img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-.action_card__title {
+.bots_card__title {
 	width: 140px;
 	margin: 30px 200px 20px 20px;
 	font-family: 'Hurme Geometric Sans 1';
@@ -158,17 +127,17 @@
 	color: rgba(0, 0, 0, 0.85);
 }
 
-.action_card {
+.bots_card {
 	box-sizing: border-box;
 	padding: 15px;
 	height: 100px;
 	border-radius: 20px;
 	background: linear-gradient(45deg, #2999f9 0%, #c444ed 70%, #f5555e 100%);
 	background-size: 200%;
-	animation: action_card 4s infinite linear;
+	animation: bots_card 4s infinite linear;
 }
 
-@keyframes action_card {
+@keyframes bots_card {
 	0% {
 			background-position: 0%;
 	}
@@ -180,7 +149,7 @@
 	}
 }
 
-.action_card__description {
+.bots_card__description {
 	font-family: 'Hurme Geometric Sans 1';
 	font-style: normal;
 	font-weight: 600;
