@@ -1,0 +1,38 @@
+.offers_title {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 1.333;
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.85);
+	margin: 1.66em 11.11em 1.11em 1.11em;
+}
+
+.offers {
+	height: 200px;
+	display: flex;
+	gap: 15px;
+	background: transparent;
+}
+
+.offers_card {
+	position: relative;
+	padding: 15px;
+	display: flex;
+	flex: 0 1 50%;
+	flex-direction: row;
+	align-items: flex-start;
+	border-radius: 25px;
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 100%);
+}
+
+.offers_card__description {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 1.333;
+	letter-spacing: 0.02em;
+	color: white;
+}

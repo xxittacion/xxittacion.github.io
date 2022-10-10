@@ -1,0 +1,17 @@
+@import url(/styles/reset.css);
+@import url(/styles/home/1_header.css);
+@import url(/styles/home/2_picture.css);
+@import url(/styles/home/3_bots.css);
+@import url(/styles/home/4_offers.css);
+@import url(/styles/home/5_applications.css);
+
+.home {
+	/* (ширина 425px / 16px) */
+	max-width: 26.5rem;
+}
+
+.container {
+	/* (414px + 15px) / 16 */
+	max-width: 26.8rem;
+	padding: 0 15px 15px;
+}

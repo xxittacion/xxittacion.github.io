@@ -1,0 +1,97 @@
+.header {
+	height: 280px;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 70%, #f5555e 100%);
+	background-size: 200%;
+	animation: header_bg 4s infinite linear;
+}
+
+@keyframes header_bg {
+	0% {
+			background-position: 0%;
+	}
+	50% {
+			background-position: 100%;
+	}
+	100% {
+			background-position: 0%;
+	}
+}
+
+.animate_bg__wrapper div {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	opacity: 0;
+	background: url(/pictures/упавший_лист.png);
+	animation: animate_bg 6s linear infinite;
+}
+
+.animate_bg__wrapper div:nth-child(even) {
+	background: url(/pictures/кленовый_лист.png);
+}
+
+.animate_bg__wrapper div:nth-child(3n) {
+	animation: animate_bg 7s linear infinite; 
+}
+
+.animate_bg__wrapper div:nth-child(1) {
+	left: 0%;
+}
+
+.animate_bg__wrapper div:nth-child(2) {
+	top: 10%;
+	left: 10%;
+}
+
+.animate_bg__wrapper div:nth-child(3) {
+	left: 20%;
+}
+
+.animate_bg__wrapper div:nth-child(4) {
+	top: 20%;
+	left: 30%;
+}
+
+.animate_bg__wrapper div:nth-child(5) {
+	left: 40%;
+}
+
+.animate_bg__wrapper div:nth-child(6) {
+	top: 30%;
+	left: 50%;
+}
+
+.animate_bg__wrapper div:nth-child(7) {
+	left: 60%;
+}
+
+.animate_bg__wrapper div:nth-child(8) {
+	top: 20%;
+	left: 70%;
+}
+
+.animate_bg__wrapper div:nth-child(9) {
+	left: 80%;
+}
+
+.animate_bg__wrapper div:nth-child(10) {
+	top: 10%;
+	left: 90%;
+}
+
+@keyframes animate_bg {
+	0% {
+		transform: scale(0) translateY(0px) rotate(0deg);
+		opacity: 0.5;
+	}
+	50% {
+		transform: scale(0.5) translateY(140px) rotate(180deg);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(1) translateY(280px) rotate(360deg);
+		opacity: 1;
+	}
+}
