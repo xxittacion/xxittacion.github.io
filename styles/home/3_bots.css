@@ -1,0 +1,58 @@
+.bots_title {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	/* 18px / 16px */
+	font-size: 1.125rem;
+	/* 24px / 18px */
+	line-height: 1.333;
+	/* 0.5px / 18px */
+	letter-spacing: 0.02em;
+	color: rgba(0, 0, 0, 0.85);
+	/* отступ px / 18px */
+	margin: 1.66em 11.11em 1.11em 1.11em;
+}
+
+/* .bots_title {
+	width: 140px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: rgba(0, 0, 0, 0.85);
+	margin: 30px 200px 20px 20px;
+} */
+
+.bots {
+	height: 100px;
+	box-sizing: border-box;
+	padding: 15px;
+	border-radius: 20px;
+	background: linear-gradient(45deg, #2999f9 0%, #c444ed 70%, #f5555e 100%);
+	background-size: 200%;
+	animation: bots_bg 4s infinite linear;
+}
+
+@keyframes bots_bg {
+	0% {
+			background-position: 0%;
+	}
+	50% {
+			background-position: 100%;
+	}
+	100% {
+			background-position: 0%;
+	}
+}
+
+.bots_description {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 1.333;
+	letter-spacing: 0.02em;
+	color: white;
+}
