@@ -1,5 +1,5 @@
 .header {
-	padding: 50px 20px 0 20px;
+	padding: 50px 20px 0px 20px;
 	height: 280px;
 	position: relative;
 	overflow: hidden;
@@ -21,12 +21,13 @@
 }
 
 .animate_bg__wrapper div {
+	opacity: 0;
 	width: 30px;
 	height: 30px;
 	position: absolute;
-	opacity: 0;
 	background: url(/pictures/упавший_лист.png);
 	animation: animate_bg_right 6s linear infinite;
+	margin: -50px 0;
 }
 
 .animate_bg__wrapper div:nth-child(even) {
@@ -88,11 +89,11 @@
 		opacity: 0;
 	}
 	50% {
-		transform: scale(0.5) translateY(140px) rotate(180deg);
+		transform: scale(0.5) translateY(175px) rotate(180deg);
 		opacity: 1;
 	}
 	100% {
-		transform: scale(1) translateY(280px) rotate(360deg);
+		transform: scale(1) translateY(350px) rotate(360deg);
 		opacity: 1;
 	}
 }
@@ -103,11 +104,11 @@
 		opacity: 0;
 	}
 	50% {
-		transform: scale(0.5) translateY(140px) rotate(180deg);
+		transform: scale(0.5) translateY(175px) rotate(180deg);
 		opacity: 1;
 	}
 	100% {
-		transform: scale(1) translateY(280px) rotate(0deg);
+		transform: scale(1) translateY(350px) rotate(0deg);
 		opacity: 1;
 	}
 }
