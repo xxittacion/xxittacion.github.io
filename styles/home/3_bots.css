@@ -7,7 +7,7 @@
 	/* 24px / 18px */
 	line-height: 1.333;
 	/* 0.5px / 18px */
-	letter-spacing: 0.02em;
+/* 	letter-spacing: 0.02em; */
 	color: rgba(0, 0, 0, 0.85);
 	/* отступ px / 18px */
 	margin: 1.66em 11.11em 1.11em 1.11em;
@@ -53,6 +53,6 @@
 	font-weight: 600;
 	font-size: 1.125rem;
 	line-height: 1.333;
-	letter-spacing: 0.02em;
+/* 	letter-spacing: 0.02em; */
 	color: white;
 }
