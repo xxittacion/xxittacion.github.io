@@ -1,5 +1,6 @@
 .header {
-	padding: 50px 20px 0px 20px;
+	box-sizing: border-box;
+	padding: 0px 20px 0px 20px;
 	height: 280px;
 	position: relative;
 	overflow: hidden;
@@ -20,22 +21,21 @@
 	}
 }
 
+.animate_bg__wrapper {
+	visibility: hidden;
+}
+
 .animate_bg__wrapper div {
-	opacity: 0;
 	width: 30px;
 	height: 30px;
 	position: absolute;
 	background: url(/pictures/упавший_лист.png);
-	animation: animate_bg_right 6s linear infinite;
-	margin: -50px 0;
+	animation: animate_bg_right 7s linear infinite;
 }
 
 .animate_bg__wrapper div:nth-child(even) {
 	background: url(/pictures/кленовый_лист.png);
-}
-
-.animate_bg__wrapper div:nth-child(3n) {
-	animation: animate_bg_left 7s linear infinite; 
+	animation: animate_bg_left 7s linear infinite;
 }
 
 .animate_bg__wrapper div:nth-child(1) {
@@ -48,68 +48,68 @@
 }
 
 .animate_bg__wrapper div:nth-child(3) {
+	top: 25%;
 	left: 20%;
 }
 
 .animate_bg__wrapper div:nth-child(4) {
-	top: 20%;
+	top: 0%;
 	left: 30%;
 }
 
 .animate_bg__wrapper div:nth-child(5) {
+	top: 10%;
 	left: 40%;
 }
 
 .animate_bg__wrapper div:nth-child(6) {
-	top: 30%;
+	top: 0%;
 	left: 50%;
 }
 
 .animate_bg__wrapper div:nth-child(7) {
+	top: 20%;
 	left: 60%;
 }
 
 .animate_bg__wrapper div:nth-child(8) {
-	top: 20%;
+	top: 10%;
 	left: 70%;
 }
 
 .animate_bg__wrapper div:nth-child(9) {
+	top: 25%;
 	left: 80%;
 }
 
 .animate_bg__wrapper div:nth-child(10) {
-	top: 10%;
+	top: 0%;
 	left: 90%;
 }
 
 @keyframes animate_bg_right {
 	0% {
 		transform: scale(0) translateY(0px) rotate(0deg);
-		opacity: 0;
+		visibility: visible;
 	}
 	50% {
 		transform: scale(0.5) translateY(175px) rotate(180deg);
-		opacity: 1;
 	}
 	100% {
 		transform: scale(1) translateY(350px) rotate(360deg);
-		opacity: 1;
 	}
 }
 
 @keyframes animate_bg_left {
 	0% {
 		transform: scale(0) translateY(0px) rotate(360deg);
-		opacity: 0;
+		visibility: visible;
 	}
 	50% {
 		transform: scale(0.5) translateY(175px) rotate(180deg);
-		opacity: 1;
 	}
 	100% {
 		transform: scale(1) translateY(350px) rotate(0deg);
-		opacity: 1;
 	}
 }
 
@@ -118,10 +118,10 @@
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 600;
-	font-size: 1.375rem;
+	font-size: 1.62rem;
 	line-height: 1.333;
 	color: white;
-	margin-bottom: 2.27rem;
+	margin: 1.923em 0em 0.961em 0em;
 }
 
 .header_subtitle {
@@ -129,7 +129,7 @@
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1rem;
+	font-size: 1.125rem;
 	line-height: 1.333;
 	color: white;
 }
